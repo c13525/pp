@@ -1,1 +1,577 @@
+html{
+    font-family: 'Noto Sans Japanese',sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+      width :90%;
+      max-width : 1120px;
+      margin : 0 auto;
+      position: relative;
+}
+
+.flex{
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content: space-between;
+}
+
+header{
+    padding: 27px 0;
+}
+
+.main-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 8px 16px;
+    transition: opacity 0.3s;
+}
+
+.main-nav a:hover{
+        opacity:0.7 ;
+        color:chartreuse;
+        
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+
+}
+
+#hero{
+    background-image: url('yasai.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    border-radius: 50px;
+    width :90%;
+    max-width : 1120px;
+    margin : 0 auto;
+    display:flex;
+    align-items: center;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+#hero::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0.2;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.hero_innner{
+    z-index: 2;
+    text-align:center;
+    color: aliceblue;
+    width:100%;
+}
+
+.sab{
+    font-size :20px;
+    font-weight:500;
+    margin-bottom: 16px;
+}
+
+.hero_innner h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#concept{
+    margin-bottom: 120px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    color:cadetblue;
+    line-height: 2;
+    margin-top: -1.5em !important;
+    scroll-margin-top: 500px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2;
+    margin-top: -1em;
+    
+}
+
+.column-2{
+    width: 48%;
+}
+
+.text{
+    line-height: 2;
+}
+
+.concept_img{
+    background-image: url(../HTML/salad.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.heading{
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-size: 200px;
+    color: cadetblue;
+    opacity: 0.2;
+    position: absolute;
+    right:0%;
+    top: 5%;
+}
+
+.concept_header{
+    position: relative;
+    display: inline-block;
+}
+
+p{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: -2em !important;
+}
+
+.service_header{
+    position: relative;
+    display: inline-block;
+}
+
+.flex{
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content: space-between;
+        gap: 20px;
+}
+
+.hea{
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-size: 200px;
+    color: cadetblue;
+    opacity: 0.2;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    margin-left: 550px;
+}
+
+.service_img{
+   background-image: url(shokuzi.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 30px;
+   flex-shrink: 0;
+   width: 35%;
+   height: 300px;
+   margin-top: -3em;
+}
+
+.service_flex {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    gap: 40px;        
+    margin-top: 40px;
+}        
+.two {
+    width: 65%; 
+}
+
+.tex{
+    font: size 20px;
+}
+
+.service_header{
+    margin: 0%;
+    max-width: 90%;
+}
+
+.le{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hed_img{
+    background-image: url(sara.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 300px;
+   width: 35%;
+   border-radius: 30px;
+   margin-top: 5%;
+}
+
+.hed3{
+    line-height: 2;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.hed2{
+    width: 60%;
+    margin-left: 20px;
+}
+
+.fle{
+    display: flex;
+}
+
+.le{
+    margin-left: 30px;
+}
+
+.hed{
+    font-family: "Reenie Beanie", cursive;
+   font-weight: 400;
+   font-size: 200px;
+   color: cadetblue;
+   opacity: 0.2;
+   position: absolute;
+   right: 0;
+   margin-right: 5%;
+   top: 0%;
+}
+
+.pa_img{
+    background-image: url(bai.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 300px;
+   width: 35%;
+   border-radius: 30px;
+   margin-top: 5%;
+}
+
+.ppa{
+    margin-top: -100px;
+}
+
+h2{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+.kk{
+    font-size: 30px;
+    font-weight: 500;
+    color:cadetblue;
+    line-height: 2;
+}
+
+.pp{
+    margin-left: 120px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.fa div{
+    display: flex;
+    border-bottom: solid 1px rgb(180, 219, 123);
+    margin-left: 200px;
+    padding: 15px 0;
+    height: 60px;
+}
+
+.fa dt{
+    font-weight: 700;
+    margin: 4;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.fa dd{
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.fa{
+    width: 1000px;
+    margin-top: -10px;
+}
+
+.fo{
+    display: flex;
+    max-width: none;
+    margin-top: 0;
+    height: 230px;
+    margin-bottom: 80px;
+}
+
+.aa{
+   background-image: url(abo.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 30px;
+   width: 27%;
+   margin-right: 30px;
+}
+
+.bb{
+   background-image: url(boul.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 30px;
+   width: 20%;
+   margin-right: 30px;
+}
+
+.cc{
+   background-image: url(sa.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 30px;
+   width: 25%;
+   margin-right: 30px;
+}
+
+.dd{
+   background-image: url(haku.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 30px;
+   width: 28%;
+}
+
+.logo1{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-left:  570px;
+}
+
+.copy{
+    margin-left: 570px;
+    font-size: 10px;
+    padding: 30px;
+}
+
+.ta{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+.tex{
+    font-size: 20px;
+}
+
+@media (max-width:767px) {
+    .main-text {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+}
+
+@media only screen and (max-width:768px){
+      .container{
+         justify-content: center;
+      }
+}
+
+@media only screen and (max-width:768px) {
+    #hero{height: 400px;}
+    .sab{font-size: 13px;}
+    .hero_innner h1{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+     h2{font-size: 20px;}
+     .ppa{font-size: 20px;}
+     .heading{
+        font-size: 100px;
+        margin-top: 30px;
+    }
+     .text{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    p{font-family: 'Noto Sans Japanese',sans-serif;}
+     .column-2{width: 100%;}
+     .concept_img{
+        width: 100%;
+        margin-top: 30px;
+        height: 300px;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service_flex {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .service_img {
+        width: 100% !important;
+        height: 250px !important;
+        margin-top: -20px;
+    }
+
+    .two {
+        width: 100% !important;
+    }
+
+    h3{font-size: 20px;
+       margin-top: 20px;
+    }
+
+    .hea {
+        font-size: 100px !important;    
+        position: absolute !important;
+        left: 0 !important;
+        margin-left: 20px !important;  
+        top: -30px !important;         
+        z-index: 1 !important;
+    }
+
+    .service_header {
+        position: relative !important;
+    }
+
+    .hea{
+        margin-top: 420px;
+    }
+
+    .tex{font-size:15px}
+}
+
+@media screen and (max-width: 768px) {
+    .fle{
+        display: block !important; 
+    }
+    .hed_img{
+        width: 100%;
+        height: 250px;
+        margin-top: 100px;
+    }
+    .hed2{
+        width: 100%;
+        margin-left: -20px;
+        margin-top: -50px;
+    }
+    .le{
+        font-size: 20px;
+    }
+
+    .hed{
+        margin-left: 50px;
+        font-size:100px;
+        margin-top: 260px;
+    }
+
+    .hed3{
+        font-size: 15px;
+    }
+}
+
+/* =======================================================
+   👇 ここから下が完成版のスマホ用追加設定です
+   ======================================================= */
+@media screen and (max-width: 768px) {
+    .pp {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-top: 50px !important;
+    }
+
+    .kk {
+        margin-top: 0 !important;
+    }
+
+    .fa {
+        width: 100% !important;
+    }
+
+    .fa div {
+        margin-left: 0 !important;
+        height: auto !important;
+        display: flex !important;
+        flex-direction: column !important; 
+        align-items: flex-start !important;
+        padding: 10px 0 !important;
+    }
+
+    .fa dt {
+        width: 100% !important;
+        margin: 5px 0 !important;
+    }
+
+    .fa dd {
+        margin: 5px 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /* 4枚の写真を縦にせず、スマホでも横2枚ずつ綺麗に並べる指定 */
+    .fo {
+        display: flex !important;
+        flex-wrap: wrap !important;     
+        height: auto !important;        
+        max-height: none !important;    
+        gap: 10px !important;           
+        padding: 0 5% !important;
+        margin-bottom: 40px !important;
+    }
+    
+    .fo div {
+        width: 48% !important;          
+        height: 120px !important;       
+        margin-right: 0 !important;
+    }
+    
+    .logo1 {
+        margin-left: 0 !important;
+        text-align: center !important;
+        display: block !important;
+        font-size: 20px !important;
+    }
+
+    .copy {
+        margin-left: 0 !important;
+        text-align: center !important;
+        display: block !important;
+        padding: 20px 0 !important;
+    }
+
+    /* バグを誘発していたマイナスマージンをスマホ時のみ強制シャットアウト */
+    p {
+        margin-bottom: 0 !important;
+    }
+    .ppa {
+        margin-top: 0 !important;
+    }
+}
 
