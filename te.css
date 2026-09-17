@@ -1,6 +1,4 @@
-/* ==========================================
-  1. リセット & 全体基本設定
-========================================== */
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -18,7 +16,7 @@ body {
   max-width: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* 横スクロールの最終防衛線 */
+  overflow-x: hidden; 
 }
 
 img {
@@ -26,9 +24,6 @@ img {
   height: auto;
 }
 
-/* ==========================================
-  2. PC用 基本レイアウト
-========================================== */
 .container {
   width: 90%;
   max-width: 1120px;
@@ -381,9 +376,6 @@ p {
 }
 
 
-/* ==========================================
-  3. スマホ用構造最適化 (max-width: 767px)
-========================================== */
 @media screen and (max-width: 767px) {
 
   .logo { margin-left: 3%; }
@@ -405,7 +397,7 @@ p {
      font-size: 110px;
   }
 
-  /* ヒーローエリア */
+
   #hero {
      width: 90% !important;
      height: 350px !important;
@@ -420,7 +412,7 @@ p {
       margin-top: 5px;
   }
 
-  /* セクション＆テキスト設定 */
+
   #concept {
       margin-bottom: 50px !important;
   }
@@ -447,7 +439,7 @@ p {
       margin-bottom: 0 !important;
   }
 
-  /* 画像要素の縦並び化 */
+
   .service_img, .hed_img, .pa_img {
       width: 100% !important;
       height: 200px !important;
@@ -486,7 +478,6 @@ p {
       margin-bottom: 40px !important;
   }
 
-  /* リスト・テーブルエリア (.fa) */
   .fa {
       width: 100% !important;
       margin-left: 0 !important;
@@ -506,7 +497,6 @@ p {
       padding-right: 0 !important;
   }
 
-  /* 下部ギャラリー画像 (.fo) */
   .fo {
       display: flex !important;
       flex-wrap: wrap !important;   
